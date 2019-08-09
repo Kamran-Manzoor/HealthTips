@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.salman.healthtips.Signup">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/healthlogo"
+        />
+      <EditText
+          android:layout_marginTop="30dp"
+        android:id="@+id/name"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="64dp"
+          android:layout_marginRight="60dp"
+
+          android:gravity="center_vertical"
+        android:hint="Name"
+        android:textColor="#FFFFFF"
+        />
+
+
+        <Spinner
+            style="@style/Widget.AppCompat.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="64dp"
+            android:layout_marginRight="60dp"
+            android:gravity="center_vertical"
+            android:hint="Name"
+            android:textColor="#FFFFFF"
+         android:spinnerMode="dialog"
+            android:id="@+id/occupation"
+            android:entries="@array/Category"
+            />
+
+        <EditText
+            android:id="@+id/email"
+            android:inputType="text"
+            style="@style/Widget.AppCompat.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="64dp"
+            android:layout_marginRight="60dp"
+            android:gravity="center_vertical"
+            android:hint="Email"
+            android:textColor="#FFFFFF"
+
+            />
+
+
+        <EditText
+            android:id="@+id/password"
+            style="@style/Widget.AppCompat.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="64dp"
+            android:layout_marginRight="60dp"
+            android:gravity="center_vertical"
+            android:hint="Password"
+            android:textColor="#FFFFFF"
+
+            android:ems="10"
+            android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/repassword"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="60dp"
+
+        android:gravity="center_vertical"
+        android:hint="Re-Enter Password"
+        android:textColor="#FFFFFF"
+
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="95dp"
+            android:text="SignUp"
+            android:background="@drawable/mybutton"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/bt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center"
+            android:background="@drawable/mybutton"
+            android:theme="@style/MyButton"
+            android:text="cancel"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+    </LinearLayout>

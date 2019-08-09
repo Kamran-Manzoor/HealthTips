@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.salman.healthtips.Aboutus">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="?android:dividerHorizontal"
+            android:orientation="vertical"
+
+            >
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#f448c4d4"
+                android:minHeight="?attr/actionBarSize">
+
+
+                <TextView
+                    android:id="@+id/toolbar_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="About us"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+
+            </android.support.v7.widget.Toolbar>
+
+
+
+            <TextView
+                android:id="@+id/titlecontent2"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Welcome to HealthTips, your number one source for all Tips. We're dedicated to giving you the very best of Tips, with a focus on your Health, Fitness and much more. \n \nThis application is founded in 2019 by our dedicated team, KT Squares has come a long way from its beginnings in Multan, Pakistan. When we first started out, our passion for Android apps  drove them to do tons of research, so that KT Squares can offer you best  health tips We now serve customers all over  the world, and are thrilled that we're able to turn our passion into our own application. \n \nWe hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us on salmanniaxi111@gmail.com. \n \nSincerely, \n \nKt Squares \n"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+    </android.support.constraint.ConstraintLayout>

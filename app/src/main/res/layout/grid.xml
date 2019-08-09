@@ -1,0 +1,44 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:id="@+id/cardview"
+    app:cardCornerRadius="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2.5dp"
+    app:cardElevation="8dp"
+    app:cardBackgroundColor="@color/colorAccent"
+    card_view:cardUseCompatPadding="true"
+    android:orientation="vertical"
+   >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/flag"
+           android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:background="@color/colortransparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/placeholder" />
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/flag"
+            android:layout_alignParentStart="true"
+            android:background="@color/colortransparent"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Salman "
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

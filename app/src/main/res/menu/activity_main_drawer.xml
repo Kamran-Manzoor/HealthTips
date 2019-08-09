@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/befefitofwater"
+            android:icon="@drawable/water"
+            android:title="Banefit of Water" />
+        <item
+            android:id="@+id/Banefitsofvagetables"
+            android:icon="@drawable/carrot"
+            android:title="Banefits of Vagetables" />
+        <item
+            android:id="@+id/benefitsofvirginoliveoil"
+            android:icon="@drawable/seed"
+
+            android:title="Benefits of Virgin Olive Oil" />
+        <item
+            android:id="@+id/nav_egg"
+            android:icon="@drawable/eggs"
+            android:title="Benefits of Eggs, Yolk and All" />
+        <item
+            android:id="@+id/nav_deit"
+            android:icon="@drawable/dieting"
+            android:title="Drawbacks of dieting" />
+        <item
+            android:id="@+id/nav_relationship"
+            android:icon="@drawable/realtionship"
+            android:title="Relationships and Health" />
+        <item
+            android:id="@+id/nav_transandfats"
+            android:icon="@drawable/cheese"
+            android:title="Drawbacks of Artificial Fats" />
+        <item
+            android:id="@+id/nav_carbs"
+            android:icon="@drawable/carbs"
+            android:title="Drawbacks of Refined Carbs" />
+        <item
+            android:id="@+id/nav_herbs"
+            android:icon="@drawable/herbs"
+            android:title="Benefits of Herbs and Spices" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+          <!--  <item
+                android:id="@+id/signup"
+                android:icon="@drawable/ic_menu_send"
+                android:title="SignUp/Login" />-->
+
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_policy_24dp"
+                android:title="About us" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="share" />
+
+            </menu>
+
+    </item>
+
+</menu>
